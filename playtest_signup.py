@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-PLAYTEST_CHANNEL_ID = 1435750191344124066
+PLAYTEST_CHANNEL_ID = playtest-channel
 
 
 class PlaytestModal(discord.ui.Modal, title="Playtest Sign-Up"):
@@ -44,3 +44,4 @@ class PlaytestSignup(commands.Cog):
 async def setup(bot: commands.Bot):
     await bot.add_cog(PlaytestSignup(bot))
     print("[DEBUG] PlaytestSignup cog loaded")
+
