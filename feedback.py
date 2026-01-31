@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-FEEDBACK_CHANNEL_ID = 1435751220235997255
+FEEDBACK_CHANNEL_ID = FEEDBACK-Channel
 
 
 class FeedbackModal(discord.ui.Modal, title="Submit Feedback"):
@@ -48,3 +48,4 @@ class Feedback(commands.Cog):
 async def setup(bot: commands.Bot):
     await bot.add_cog(Feedback(bot))
     print("[DEBUG] Feedback cog loaded")
+
