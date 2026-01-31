@@ -27,3 +27,5 @@ While building Val-X, I learned how to design and structure a business-oriented 
 🎯 How It Can Be Used
 
 Val-X is used by my game studio to manage playtests, communicate updates, collect feedback, and engage their community in a more structured way. It is ideal for indie studios, development teams, or any project that relies on Discord as a central hub for collaboration and player interaction.
+
+🎥 Demo
