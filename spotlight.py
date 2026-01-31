@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-SPOTLIGHT_CHANNEL_ID = 1434598280662089860
+SPOTLIGHT_CHANNEL_ID = spotlight-channel
 
 
 class SpotlightModal(discord.ui.Modal, title="Submit a Community Spotlight"):
@@ -50,3 +50,4 @@ class Spotlight(commands.Cog):
 async def setup(bot):
     await bot.add_cog(Spotlight(bot))
     print("[DEBUG] Spotlight cog loaded")
+
