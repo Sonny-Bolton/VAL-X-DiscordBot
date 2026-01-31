@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-LOG_CHANNEL_ID = 1435752521892364391
+LOG_CHANNEL_ID = LOG-CHANNEL
 
 
 class Logging(commands.Cog):
@@ -44,3 +44,4 @@ class Logging(commands.Cog):
 async def setup(bot):
     await bot.add_cog(Logging(bot))
     print("[DEBUG] Logging cog loaded")
+
