@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-EVENT_CHANNEL_ID = 1434598057785163927
+EVENT_CHANNEL_ID = Event-Channel
 
 
 class EventModal(discord.ui.Modal, title="Create Event"):
@@ -46,3 +46,4 @@ class EventSystem(commands.Cog):
 async def setup(bot: commands.Bot):
     await bot.add_cog(EventSystem(bot))
     print("[DEBUG] EventSystem cog loaded")
+
