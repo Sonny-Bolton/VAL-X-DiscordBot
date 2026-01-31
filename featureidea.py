@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-FEATURE_IDEA_CHANNEL_ID = 1434607308788469872
+FEATURE_IDEA_CHANNEL_ID = Feature-Idea
 
 class FeatureIdeaModal(discord.ui.Modal, title="Submit a Feature Idea"):
     game_field = discord.ui.TextInput(
@@ -58,3 +58,4 @@ class FeatureIdea(commands.Cog):
 async def setup(bot):
     await bot.add_cog(FeatureIdea(bot))
     print("[DEBUG] FeatureIdea cog loaded")
+
