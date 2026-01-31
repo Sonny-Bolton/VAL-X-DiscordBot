@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 
 # Replace with your channel ID
-WELCOME_CHANNEL_ID = 1434579901272555525
+WELCOME_CHANNEL_ID = welcome-channel
 class Welcome(commands.Cog):
     """Welcome messages and test command."""
 
@@ -49,4 +49,5 @@ class Welcome(commands.Cog):
 # Async setup for your async loader
 async def setup(bot: commands.Bot):
     await bot.add_cog(Welcome(bot))
+
     print("[DEBUG] Welcome cog loaded")
