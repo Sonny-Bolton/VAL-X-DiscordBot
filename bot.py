@@ -3,7 +3,7 @@ from discord.ext import commands
 import asyncio
 import traceback
 
-TOKEN = "MTQzNTU0NzA2OTI1NDM0MDYyOA.Gq0oTq.WqK6vvDf5Db2VYxhX_-Y9GAzPZvB0IDE2PcSuw"
+TOKEN = "bot-token"
 
 intents = discord.Intents.default()
 intents.guilds = True
@@ -64,6 +64,7 @@ async def main():
 # Run the bot
 # -----------------------------
 asyncio.run(main())
+
 
 
 
