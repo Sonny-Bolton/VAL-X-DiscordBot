@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-PATCHNOTES_CHANNEL_ID = 1435752669913419829
+PATCHNOTES_CHANNEL_ID = patchnotes-channel
 
 
 class PatchNotesModal(discord.ui.Modal, title="Post Patch Notes"):
@@ -47,3 +47,4 @@ class PatchNotes(commands.Cog):
 async def setup(bot):
     await bot.add_cog(PatchNotes(bot))
     print("[DEBUG] PatchNotes cog loaded")
+
